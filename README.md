@@ -15,7 +15,9 @@
 
 ---
 # Software_router
+
+重置
+
 ```
-binutils bzip2 diff find flex gawk gcc-6+ getopt grep install libc-dev libz-dev
-make4.1+ perl python3.7+ rsync subversion unzip which
+firstboot
 ```
