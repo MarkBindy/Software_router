@@ -180,7 +180,7 @@ rm /tmp/luci-app-temp-status-0.8.1-r1.apk
 ```
 service rpcd restart
 ```
-# 恢复默认初始配置
+# 恢复初始默认配置
 重置
 
 ```
