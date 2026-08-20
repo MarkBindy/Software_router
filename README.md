@@ -118,7 +118,7 @@ resize2fs /dev/loop0
 df -h
 ```
 
-# 示例说明：
+# 示例展示说明：
 ```
 root@OpenWrt:~# parted /dev/sda
 GNU Parted 3.6
