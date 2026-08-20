@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Telegram-MarkBindy-26A5E4?logo=telegram&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://github.com/Eilte/Mobaxterm-Chinese/releases" target="_red">
+  <a href="https://github.com/Eilte/Mobaxterm-Chinese/releases" target="_blank">
     <img src="https://img.shields.io/badge/SSH-工具终端下载-FF0000?logo=SSH&logoColor=white"/>
   </a>
 </p>
