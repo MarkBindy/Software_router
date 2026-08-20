@@ -71,7 +71,7 @@ apk add --allow-untrusted /tmp/upload.apk
 ```
 ssh root@192.168.3.1
 ```
-第二步：安装parted/losetup/resize2fs模块
+第二步：安装 parted / losetup / resize2fs 模块
 ```
 apk update
 apk add parted
