@@ -34,3 +34,14 @@ reboot
 ```
 sed -i 's/downloads.openwrt.org/mirrors.cloud.tencent.com\/openwrt/g' /etc/apk/repositories
 ```
+# 安装cpu温度显示监控：
+图形化界面
+```
+apk update
+apk add collectd-mod-thermal
+```
+```
+apk update
+apk add luci-app-statistics
+apk add luci-i18n-statistics-zh-cn
+```
