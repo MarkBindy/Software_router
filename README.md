@@ -155,6 +155,24 @@ overlayfs:/overlay       27.6G     81.9M     26.3G   0% /
 /dev/sda1                16.0M      6.2M      9.8M  39% /boot
 tmpfs                   512.0K         0    512.0K   0% /dev
 ```
+# 刷完固件操作
+系统开机，首次进入界面按回车，输入命令回车，修改默认IP地址
+```
+vi /etc/config/network
+```
+键盘上按：i 进入编辑模式
+移动光标至 IP 地址行，修改 IP（随意）,修改完成后按 ESC 键退出编辑模式，再次输入（保存）
+```
+:wq
+```
+重置网络服务
+```
+service network restart
+```
+重启路由器
+```
+reboot
+```
 # 安装 CPU / GPU 温度显示监控
 图形化界面
 ```
