@@ -155,26 +155,6 @@ overlayfs:/overlay       27.6G     81.9M     26.3G   0% /
 /dev/sda1                16.0M      6.2M      9.8M  39% /boot
 tmpfs                   512.0K         0    512.0K   0% /dev
 ```
-# 恢复默认初始配置
-重置
-
-```
-firstboot
-```
-确认
-
-```
-y
-```
-重启
-
-```
-reboot
-```
-# 更换国内镜像源（针对国内网络下载慢挂掉）
-```
-sed -i 's/downloads.openwrt.org/mirrors.cloud.tencent.com\/openwrt/g' /etc/apk/repositories
-```
 # 安装cpu温度显示监控
 图形化界面
 ```
@@ -199,6 +179,26 @@ rm /tmp/luci-app-temp-status-0.8.1-r1.apk
 ```
 ```
 service rpcd restart
+```
+# 恢复默认初始配置
+重置
+
+```
+firstboot
+```
+确认
+
+```
+y
+```
+重启
+
+```
+reboot
+```
+# 更换国内镜像源（针对国内网络下载慢挂掉）
+```
+sed -i 's/downloads.openwrt.org/mirrors.cloud.tencent.com\/openwrt/g' /etc/apk/repositories
 ```
 # 安装上传包内文件
 ```
