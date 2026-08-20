@@ -13,7 +13,7 @@
   </a>
   &nbsp;
   <a href="https://github.com/Eilte/Mobaxterm-Chinese/releases" target="_red">
-    <img src="https://img.shields.io/badge/Telegram-MarkBindy-26A5E4?logo=telegram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/SSH-MarkBindy-26A5E4?logo=SSH&logoColor=white"/>
   </a>
 </p>
 
