@@ -15,7 +15,7 @@
 
 ---
 
-SSH工具终端下载(https://github.com/Eilte/Mobaxterm-Chinese/releases)
+SSH工具终端下载 (https://github.com/Eilte/Mobaxterm-Chinese/releases)
 
 # 磁盘扩容（仅适用官方原版 OpenWrt 25以上系统）
 确认是 SquashFS 固件，利用系统自带 loop0 回环设备实现无损在线扩容！(不需要格式化、创建 sda3 ，只需分区表在底层被拉满)
