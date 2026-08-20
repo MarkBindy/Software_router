@@ -165,7 +165,7 @@ vi /etc/config/network
 ```
 :wq
 ```
-重置网络服务
+重启网络服务
 ```
 service network restart
 ```
