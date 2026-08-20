@@ -14,55 +14,7 @@
 </p>
 
 ---
-# 恢复默认初始配置
-重置
 
-```
-firstboot
-```
-确认
-
-```
-y
-```
-重启
-
-```
-reboot
-```
-# 更换国内镜像源（针对国内网络下载慢挂掉）
-```
-sed -i 's/downloads.openwrt.org/mirrors.cloud.tencent.com\/openwrt/g' /etc/apk/repositories
-```
-# 安装cpu温度显示监控
-图形化界面
-```
-apk update
-apk add collectd-mod-thermal
-```
-```
-apk update
-apk add luci-app-statistics
-apk add luci-i18n-statistics-zh-cn
-```
-首页显示
-```
-apk update
-wget --no-check-certificate -O /tmp/luci-app-temp-status-0.8.1-r1.apk https://github.com/gSpotx2f/packages-openwrt/raw/master/25.12/luci-app-temp-status-0.8.1-r1.apk
-```
-```
-apk --allow-untrusted add /tmp/luci-app-temp-status-0.8.1-r1.apk
-```
-```
-rm /tmp/luci-app-temp-status-0.8.1-r1.apk
-```
-```
-service rpcd restart
-```
-# 安装上传包内文件
-```
-apk add --allow-untrusted /tmp/upload.apk
-```
 # 磁盘扩容（官方原版 Openwrt）
 确认是 SquashFS 固件，利用系统自带 loop0 回环设备实现无损在线扩容！(不需要格式化、创建 sda3 ，只需分区表在底层被拉满)
 手动强制它检测并修复 GPT 尾部指针，然后执行扩容，请严格输入以下指令：
@@ -202,4 +154,53 @@ overlayfs:/overlay       27.6G     81.9M     26.3G   0% /
 /dev/sda1                16.0M      6.2M      9.8M  39% /boot
 /dev/sda1                16.0M      6.2M      9.8M  39% /boot
 tmpfs                   512.0K         0    512.0K   0% /dev
+```
+# 恢复默认初始配置
+重置
+
+```
+firstboot
+```
+确认
+
+```
+y
+```
+重启
+
+```
+reboot
+```
+# 更换国内镜像源（针对国内网络下载慢挂掉）
+```
+sed -i 's/downloads.openwrt.org/mirrors.cloud.tencent.com\/openwrt/g' /etc/apk/repositories
+```
+# 安装cpu温度显示监控
+图形化界面
+```
+apk update
+apk add collectd-mod-thermal
+```
+```
+apk update
+apk add luci-app-statistics
+apk add luci-i18n-statistics-zh-cn
+```
+首页显示
+```
+apk update
+wget --no-check-certificate -O /tmp/luci-app-temp-status-0.8.1-r1.apk https://github.com/gSpotx2f/packages-openwrt/raw/master/25.12/luci-app-temp-status-0.8.1-r1.apk
+```
+```
+apk --allow-untrusted add /tmp/luci-app-temp-status-0.8.1-r1.apk
+```
+```
+rm /tmp/luci-app-temp-status-0.8.1-r1.apk
+```
+```
+service rpcd restart
+```
+# 安装上传包内文件
+```
+apk add --allow-untrusted /tmp/upload.apk
 ```
