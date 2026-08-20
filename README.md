@@ -45,3 +45,18 @@ apk update
 apk add luci-app-statistics
 apk add luci-i18n-statistics-zh-cn
 ```
+首页显示
+```
+apk update
+wget --no-check-certificate -O /tmp/luci-app-temp-status-0.8.1-r1.apk https://github.com/gSpotx2f/packages-openwrt/raw/master/25.12/luci-app-temp-status-0.8.1-r1.apk
+```
+```
+apk --allow-untrusted add /tmp/luci-app-temp-status-0.8.1-r1.apk
+```
+```
+rm /tmp/luci-app-temp-status-0.8.1-r1.apk
+```
+```
+service rpcd restart
+```
+
