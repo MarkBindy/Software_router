@@ -155,7 +155,7 @@ overlayfs:/overlay       27.6G     81.9M     26.3G   0% /
 /dev/sda1                16.0M      6.2M      9.8M  39% /boot
 tmpfs                   512.0K         0    512.0K   0% /dev
 ```
-# 安装cpu温度显示监控
+# 安装 CPU / GPU 温度显示监控
 图形化界面
 ```
 apk update
