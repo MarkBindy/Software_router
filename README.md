@@ -82,7 +82,7 @@ apk add resize2fs
 ```
 parted /dev/sda
 ```
-第四步：请在 (parted) 后面依次输入下方命令并回车（在 (parted) 交互界面中修复并扩容）
+第四步：请在 (parted) 后面依次输入下方命令并回车（在 parted 交互界面中修复并扩容）
 ```
 print
 ```
