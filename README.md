@@ -75,9 +75,9 @@ apk add parted
 apk add losetup
 apk add resize2fs
 ```
-进入 parted 交互模式并修复 GPT#(手动强制它检测并修复 GPT 尾部指针)
+进入 parted 交互模式并修复 GPT
 ```
-parted /dev/sda
+parted /dev/sda        # 手动强制它检测并修复 GPT 尾部指针
 ```
 
 
