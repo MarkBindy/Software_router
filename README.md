@@ -86,7 +86,7 @@ print      # 💡关键点：输入 print 后，parted 会强制扫描整块磁�
 Fix
 ```
 ```
-resizepart 2 100%   # 第二分区在底层就已经被完美拉满
+resizepart 2 100%   # 第二分区在底层就已经被完美拉满至100%
 ```
 ```
 quit          # 输入 quit 并回车退出
