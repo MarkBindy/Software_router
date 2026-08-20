@@ -11,11 +11,13 @@
   <a href="" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-MarkBindy-26A5E4?logo=telegram&logoColor=white"/>
   </a>
-  <a href="" target="_red">
-  [SSH工具终端下载](https://github.com/Eilte/Mobaxterm-Chinese/releases)
+  <a href="https://github.com/Eilte/Mobaxterm-Chinese/releases" target="_red">
+    <img src="https://img.shields.io/badge/Telegram-MarkBindy-26A5E4?logo=telegram&logoColor=white"/>
+  </a>
 </p>
 
 ---
+  [SSH工具终端下载]()
 # 磁盘扩容（仅适用官方原版 OpenWrt 25以上系统）
 确认是 SquashFS 固件，利用系统自带 loop0 回环设备实现无损在线扩容！(不需要格式化、创建 sda3 ，只需分区表在底层被拉满)
 手动强制它检测并修复 GPT 尾部指针，然后执行扩容，请严格输入以下指令：
