@@ -63,3 +63,26 @@ service rpcd restart
 ```
 apk add --allow-untrusted /tmp/upload.apk
 ```
+# 磁盘扩容
+登入后台
+```
+ssh root@192.168.3.1
+```
+安装parted/losetup/resize2fs模块
+```
+apk update
+apk add parted
+apk add losetup
+apk add resize2fs
+```
+进入 parted 交互模式并修复 GPT#(手动强制它检测并修复 GPT 尾部指针)
+```
+parted /dev/sda
+```
+
+
+
+
+
+
+
