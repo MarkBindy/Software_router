@@ -34,7 +34,7 @@ reboot
 ```
 sed -i 's/downloads.openwrt.org/mirrors.cloud.tencent.com\/openwrt/g' /etc/apk/repositories
 ```
-# 安装cpu温度显示监控：
+# 安装cpu温度显示监控
 图形化界面
 ```
 apk update
@@ -59,4 +59,7 @@ rm /tmp/luci-app-temp-status-0.8.1-r1.apk
 ```
 service rpcd restart
 ```
-
+# 安装上传包内文件
+```
+apk add --allow-untrusted /tmp/upload.apk
+```
