@@ -1,7 +1,7 @@
 <!-- 官方徽标 -->
 <p align="Left">
   <a href="https://github.com/MarkBindy/Software_router" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-router-181717?logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-Router-181717?logo=github&logoColor=white"/>
   </a>
   &nbsp;
   <a href="" target="_blank">
