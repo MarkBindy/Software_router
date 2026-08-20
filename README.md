@@ -1,6 +1,6 @@
 <!-- 官方徽标 -->
 <p align="Left">
-  <a href="https://github.com/MarkBindy/Airport-Config" target="_blank">
+  <a href="https://github.com/MarkBindy/Software_router" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Yaml-181717?logo=github&logoColor=white"/>
   </a>
   &nbsp;
