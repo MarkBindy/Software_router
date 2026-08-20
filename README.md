@@ -31,3 +31,7 @@ y
 ```
 reboot
 ```
+# 更换国内镜像源（针对国内网络下载慢挂掉）
+```
+sed -i 's/downloads.openwrt.org/mirrors.cloud.tencent.com\/openwrt/g' /etc/apk/repositories
+```
