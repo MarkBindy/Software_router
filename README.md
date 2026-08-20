@@ -11,6 +11,7 @@
   <a href="" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-MarkBindy-26A5E4?logo=telegram&logoColor=white"/>
   </a>
+  <a href="" target="_red">
   [SSH工具终端下载](https://github.com/Eilte/Mobaxterm-Chinese/releases)
 </p>
 
