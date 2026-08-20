@@ -86,7 +86,7 @@ parted /dev/sda
 ```
 print
 ```
-第五步：💡关键点：输入 print 后，parted 会强制扫描整块磁盘，这时它绝对会弹出提示：Warning: Not all of the space available to /dev/sda appears to be used... Fix/Ignore? 看到这个提示后，请立刻在Fix/Ignore?后方输入命令并回车
+第五步：💡关键点：输入 print 后，parted 会强制扫描整块磁盘，这时它绝对会弹出提示：Warning: Not all of the space available to /dev/sda appears to be used... Fix/Ignore? 看到这个提示后，请立刻在 Fix/Ignore? 后方输入命令并回车
 ```
 Fix
 ```
