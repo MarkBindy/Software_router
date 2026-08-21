@@ -17,7 +17,7 @@
   </a>
   &nbsp;
   <a href="https://openwrt.org/start" target="_blank">
-    <img src="https://img.shields.io/badge/OpenWrt-官方原版下载-FF0000?logo=OpenWrt&logoColor=white"/>
+    <img src="https://img.shields.io/badge/OpenWrt-官方原版下载-26A5E4?logo=OpenWrt&logoColor=white"/>
   </a>
 </p>
 
