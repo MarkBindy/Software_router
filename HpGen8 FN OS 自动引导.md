@@ -72,5 +72,6 @@ reboot
 
 # 示例说明：
 <img src="https://github.com/MarkBindy/Software_router/blob/main/docs/1.png" alt="demo1" width="100%" />
-
-
+<img src="https://github.com/MarkBindy/Software_router/blob/main/docs/2.png" alt="demo1" width="100%" />
+<img src="https://github.com/MarkBindy/Software_router/blob/main/docs/3.png" alt="demo1" width="100%" />
+<img src="https://github.com/MarkBindy/Software_router/blob/main/docs/4.png" alt="demo1" width="100%" />
