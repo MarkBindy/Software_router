@@ -71,6 +71,7 @@ reboot
 ```
 
 # 示例说明：
+<img src="https://github.com/MarkBindy/Software_router/blob/main/docs/1.png" alt="demo1" width="50%" />
 <!-- <img src="https://github.com/MarkBindy/Software_router/blob/main/docs/1.png"> -->
 
 
