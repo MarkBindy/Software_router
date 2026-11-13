@@ -71,4 +71,5 @@ reboot
 ```
 
 # 示例说明：
-https://github.com/MarkBindy/Software_router/blob/main/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/6821f8ebe76ba1885.jpg_e1080.jpg
+<!-- <img width="100" src="https://github.com/MarkBindy/Software_router/blob/main/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/6821f8ebe76ba1885.jpg_e1080.jpg" alt="logo"/> -->
+
