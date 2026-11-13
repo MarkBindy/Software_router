@@ -233,7 +233,7 @@ sed -i 's/downloads.openwrt.org/mirrors.cloud.tencent.com\/openwrt/g' /etc/apk/r
 apk add --allow-untrusted /tmp/upload.apk
 ```
 
-# SSH工具切换root用户并开启自动引导
+# Hp Gen8 自动引导 FNos, SSH 工具切换 root 用户
 第一步：登入后台终端（更换成自己飞牛NAS IP 地址）
 ```
 ssh 账号@192.168.3.1
