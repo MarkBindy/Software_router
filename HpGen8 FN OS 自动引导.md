@@ -1,4 +1,4 @@
-## SSH工具切换root用户并开启自动引导
+# SSH工具切换root用户并开启自动引导
 
 第一步：登入后台终端（更换成自己飞牛NAS IP 地址）
 ```
@@ -69,7 +69,7 @@ cp /boot/grub/grub.cfg /mnt/boot/grub/
 reboot
 ```
 
-## 示例说明：
+# 示例说明：
 <img src="https://github.com/MarkBindy/Software_router/blob/main/docs/1.png" alt="demo1" width="100%" />
 <img src="https://github.com/MarkBindy/Software_router/blob/main/docs/2.png" alt="demo1" width="100%" />
 <img src="https://github.com/MarkBindy/Software_router/blob/main/docs/3.png" alt="demo1" width="100%" />
