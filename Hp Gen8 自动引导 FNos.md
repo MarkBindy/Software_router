@@ -1,4 +1,4 @@
-# Hp Gen8 自动引导 FNos, SSH 工具切换 root 用户并开启自动引导
+# Hp Gen8 自动引导 FNos, SSH 工具切换 root 用户
 
 第一步：登入后台终端（更换成自己飞牛NAS IP 地址）
 ```
@@ -64,7 +64,7 @@ fdisk /dev/sdd
 ```
 cp /boot/grub/grub.cfg /mnt/boot/grub/
 ```
-第十三步：重启系统验证
+第十三步：重启系统验证并自动引导进入 FNos
 ```
 reboot
 ```
